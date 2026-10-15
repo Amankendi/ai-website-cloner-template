@@ -1,0 +1,156 @@
+{
+  "repository": "Amankendi/ai-website-cloner-template",
+  "source_base": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
+  "settings_observed_at": "2026-10-15T13:51:54.589137+00:00",
+  "settings": {
+    "deploy_keys": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "branch": {
+      "status": "PASS",
+      "data": {
+        "name": "master",
+        "sha": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
+        "protected": false,
+        "protection": {
+          "enabled": false,
+          "required_status_checks": {
+            "enforcement_level": "off",
+            "contexts": [],
+            "checks": []
+          }
+        }
+      }
+    },
+    "branch_protection": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "rulesets": {
+      "status": "PASS",
+      "data": []
+    },
+    "actions_permissions": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "workflow_permissions": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "fork_approval": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "dependabot_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "secret_scanning_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "code_scanning_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    }
+  },
+  "collaborator_role_counts": {
+    "admin": 1
+  },
+  "original_secret_scan": {
+    "repository": "Amankendi/ai-website-cloner-template",
+    "scanner": "gitleaks 8.30.1",
+    "binary_sha256": "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb",
+    "scope": "all locally mirrored Git refs, including fetched PR refs",
+    "exit_code": 0,
+    "status": "PASS",
+    "findings": []
+  },
+  "proposed_secret_gate": {
+    "check": "gitleaks-history",
+    "version": "8.30.1",
+    "exit_code": 0,
+    "status": "PASS",
+    "candidate_count": 0,
+    "candidates": []
+  },
+  "local_sast": {
+    "check": "semgrep-local-rules",
+    "exit_code": 0,
+    "status": "PASS",
+    "candidate_count": 0,
+    "candidates": [],
+    "error_count": 0
+  },
+  "dependency_counts_before": {
+    "info": 0,
+    "low": 0,
+    "moderate": 2,
+    "high": 12,
+    "critical": 2,
+    "total": 16
+  },
+  "dependency_counts_after": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 9,
+    "critical": 0,
+    "total": 9
+  },
+  "osv_affected_package_entries": 0,
+  "osv_unique_advisory_ids": [],
+  "recovery": {
+    "repository": "Amankendi/ai-website-cloner-template",
+    "status": "PASS",
+    "scope": "local code bundle restoration only; no offsite/data/LFS/host-state claim",
+    "steps_exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "91e5832329a91bab0012a8a29af00601a000366fef2a8956953b018bc08a42e7",
+    "bytes": 1497025
+  },
+  "workflow_source": [
+    {
+      "workflow": "ci.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v7",
+        "actions/setup-node@v7"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "alkendi-security.yml",
+      "explicit_workflow_permissions": true,
+      "unpinned_actions": [],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    },
+    {
+      "workflow": "token-badge.yml",
+      "explicit_workflow_permissions": false,
+      "unpinned_actions": [
+        "actions/checkout@v7",
+        "actions/checkout@v7",
+        "actions/setup-python@v7"
+      ],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    }
+  ]
+}
