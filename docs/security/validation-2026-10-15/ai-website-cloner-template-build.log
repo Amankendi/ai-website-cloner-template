@@ -1,0 +1,26 @@
+
+> ai-website-clone-template@0.6.1 build
+> next build
+
+▲ Next.js 16.3.8 (Turbopack)
+✓ Running next.config.ts took 152ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 31.2s
+  Running TypeScript ...
+  Finished TypeScript in 5.0s ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/4) ...
+  Generating static pages using 2 workers (1/4) 
+  Generating static pages using 2 workers (2/4) 
+  Generating static pages using 2 workers (3/4) 
+✓ Generating static pages using 2 workers (4/4) in 308ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+└ ○ /_not-found
+
+
+○  (Static)  prerendered as static content
+
